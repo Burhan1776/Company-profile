@@ -1,0 +1,51 @@
+Save dengan latihancssinline.html
+
+<html>
+<head>
+</head>
+<body>
+<p style="color: red">Tulisan ini berwarna merah</p>
+<h2 style="color: green">Judul hijau</h2>
+</body>
+</html>
+
+Save dengan latihancssinternal.html
+
+<html>
+<head>
+	<title>CSS Internal</title>
+	<style>
+		p{
+			color:red;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+<h2>Belajar css internal</h2>
+<p>Tulisan ini berwarna merah</p>
+<h2>Judul hijau</h2>
+</body>
+</html>
+
+Save dengan latihancsseksternal.html
+
+<html>
+<head>
+	<title>CSS Eksternal</title>
+	<link rel="stylesheet" href="panggilcss.css">
+</head>
+<body>
+<h2>Belajar css internal</h2>
+<p>Tulisan ini berwarna merah</p>
+<h2>Judul hijau</h2>
+</body>
+</html>
+
+
+p{
+	color: green;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
